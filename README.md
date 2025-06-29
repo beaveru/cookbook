@@ -5,20 +5,31 @@ Designed for fast lookup, learning by example, and daily use.
 
 ## Categories
 
-- **DevOps**
-  - [Docker](devops/docker/)
-  - [Kubernetes](devops/kubernetes/)
-  - [Ansible](devops/ansible/)
-- **CI/CD**
-  - [GitHub Actions](ci-cd/github-actions/)
-  - [GitLab CI](ci-cd/gitlab-ci/)
-  - [Jenkins](ci-cd/jenkins/)
-- **Linux**
-- **Cloud**
-  - [AWS](cloud/aws/)
-  - [Cloudflare](cloud/cloudflare/)
-- **Guides**
-  - [Understanding TLS & Issuing a Certificate with Let's Encrypt](guides/tls-lets-encrypt.md)
-- **Cheatsheets**
-  - [Bash](cheatsheets/bash.md)
-  - [Git](cheatsheets/git.md)
+.
+├── cheatsheets
+│   ├── bash.md
+│   └── git.md
+├── ci-cd
+│   ├── github-actions
+│   ├── gitlab-ci
+│   │   └── runners.md
+│   └── jenkins
+├── cloud
+│   ├── aws
+│   │   ├── ec2.md
+│   │   └── iam.md
+│   └── cloudflare
+├── devops
+│   ├── ansible
+│   ├── docker
+│   │   ├── secrets.md
+│   │   ├── troubleshooting.md
+│   │   └── volumes.md
+│   └── kubernetes
+│       └── helm.md
+├── guides
+│   └── tls-lets-encrypt.md
+├── linux
+│   └── kernel.md
+└── README.md
+
